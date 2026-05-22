@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bike King Borders Servicing - Expert bike repairs and servicing in the Scottish Borders." />
+  <title>Servicing - Bike King Borders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Bike King Borders Logo" class="logo" />
+        <span class="logo-text">Bike King Borders</span>
+      </div>
+      <div class="header-right">
+        <p class="contact-info">📞 01835 000000 | 📧 info@bikekingborders.co.uk</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="best-sellers.html">Best Sellers</a></li>
+      <li><a href="bikes-for-hire.html">Bikes for Hire</a></li>
+      <li><a href="servicing.html" class="active">Servicing</a></li>
+      <li><a href="bike-trails.html">Bike Trails</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Servicing &amp; Repairs</h1>
+    <p>Expert care for every bike, every time</p>
+  </section>
+
+  <main class="main-content">
+
+    <section class="info-section">
+      <h2>Why Choose Us?</h2>
+      <p>Bike King Borders is the only dedicated bike repair and servicing centre in the Borders region. Our qualified mechanics have years of experience working on all types of bikes. We guarantee all our work and use only quality parts.</p>
+      <p>You'll always receive a quote before any work begins, and we'll never carry out unnecessary repairs.</p>
+    </section>
+
+    <section class="info-section">
+      <h2>Service Price List</h2>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Basic Service</td>
+            <td>Safety check, clean, lube chain, adjust brakes and gears</td>
+            <td>£35</td>
+          </tr>
+          <tr>
+            <td>Standard Service</td>
+            <td>All of basic service plus wheel true, cable check and replacement</td>
+            <td>£60</td>
+          </tr>
+          <tr>
+            <td>Full Service</td>
+            <td>Complete strip-down, clean, rebuild, new cables and housing</td>
+            <td>£95</td>
+          </tr>
+          <tr>
+            <td>Puncture Repair</td>
+            <td>Inner tube replacement or repair, includes tyre check</td>
+            <td>£10</td>
+          </tr>
+          <tr>
+            <td>Brake Bleed</td>
+            <td>Full hydraulic brake bleed and fluid replacement</td>
+            <td>£25 per brake</td>
+          </tr>
+          <tr>
+            <td>Gear Overhaul</td>
+            <td>Derailleur strip, clean, lubricate and adjust</td>
+            <td>£20</td>
+          </tr>
+          <tr>
+            <td>Wheel Build</td>
+            <td>Custom wheel build from components</td>
+            <td>From £50</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>Parts charged separately. Turnaround is normally 2–5 working days.</em></p>
+    </section>
+
+    <section class="info-section">
+      <h2>What We Work On</h2>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <img src="images/road-icon.jpg" alt="Road bikes" />
+          <p>Road Bikes</p>
+        </div>
+        <div class="icon-card">
+          <img src="images/mountain-icon.jpg" alt="Mountain bikes" />
+          <p>Mountain Bikes</p>
+        </div>
+        <div class="icon-card">
+          <img src="images/hybrid-icon.jpg" alt="Hybrid bikes" />
+          <p>Hybrid Bikes</p>
+        </div>
+        <div class="icon-card">
+          <img src="images/kids-icon.jpg" alt="Kids bikes" />
+          <p>Kids Bikes</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2>Book a Service</h2>
+      <form action="#" method="post" class="hire-form">
+        <div class="form-group">
+          <label for="service-name">Full Name:</label>
+          <input type="text" id="service-name" name="service-name" placeholder="Your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="service-email">Email Address:</label>
+          <input type="email" id="service-email" name="service-email" placeholder="you@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="service-phone">Phone Number:</label>
+          <input type="tel" id="service-phone" name="service-phone" placeholder="07700 000000" />
+        </div>
+        <div class="form-group">
+          <label for="service-type">Service Type:</label>
+          <select id="service-type" name="service-type">
+            <option value="">-- Select a service --</option>
+            <option value="basic">Basic Service - £35</option>
+            <option value="standard">Standard Service - £60</option>
+            <option value="full">Full Service - £95</option>
+            <option value="puncture">Puncture Repair - £10</option>
+            <option value="brakes">Brake Bleed - £25</option>
+            <option value="gears">Gear Overhaul - £20</option>
+            <option value="other">Other / Not Sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bike-description">Describe Your Bike:</label>
+          <input type="text" id="bike-description" name="bike-description" placeholder="e.g. Trek mountain bike, red, 2019" />
+        </div>
+        <div class="form-group">
+          <label for="service-notes">Problem Description:</label>
+          <textarea id="service-notes" name="service-notes" rows="4" placeholder="Describe any issues or faults..."></textarea>
+        </div>
+        <button type="submit" class="btn">Request Service Booking</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Bike King Borders | 123 High Street, Galashiels, TD1 1AA | Tel: 01835 000000</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </p>
+  </footer>
+
+</body>
+</html>

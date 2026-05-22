@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bike King Borders - Hire a bike for the day and explore the Scottish Borders trails." />
+  <title>Bikes for Hire - Bike King Borders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Bike King Borders Logo" class="logo" />
+        <span class="logo-text">Bike King Borders</span>
+      </div>
+      <div class="header-right">
+        <p class="contact-info">📞 01835 000000 | 📧 info@bikekingborders.co.uk</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="best-sellers.html">Best Sellers</a></li>
+      <li><a href="bikes-for-hire.html" class="active">Bikes for Hire</a></li>
+      <li><a href="servicing.html">Servicing</a></li>
+      <li><a href="bike-trails.html">Bike Trails</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Bikes for Hire</h1>
+    <p>Hit the trails without the full commitment</p>
+  </section>
+
+  <main class="main-content">
+
+    <section class="info-section">
+      <h2>Daily Bike Hire</h2>
+      <p>Whether you're a local looking to try something new or a tourist visiting the Borders, we have the perfect bike for you. All hire bikes come with a helmet and basic toolkit.</p>
+      <p>Hire is available 7 days a week during opening hours. Advance booking is recommended during busy periods.</p>
+    </section>
+
+    <section class="info-section">
+      <h2>Hire Price List</h2>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Bike Type</th>
+            <th>Half Day (4hrs)</th>
+            <th>Full Day (8hrs)</th>
+            <th>Weekend</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Road Bike</td>
+            <td>£15</td>
+            <td>£25</td>
+            <td>£45</td>
+          </tr>
+          <tr>
+            <td>Mountain Bike</td>
+            <td>£18</td>
+            <td>£30</td>
+            <td>£55</td>
+          </tr>
+          <tr>
+            <td>Hybrid Bike</td>
+            <td>£14</td>
+            <td>£22</td>
+            <td>£40</td>
+          </tr>
+          <tr>
+            <td>Kids Bike</td>
+            <td>£8</td>
+            <td>£14</td>
+            <td>£25</td>
+          </tr>
+          <tr>
+            <td>E-Bike</td>
+            <td>£25</td>
+            <td>£40</td>
+            <td>£75</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>All prices include helmet and basic toolkit. A £50 deposit is required at time of hire.</em></p>
+    </section>
+
+    <section class="info-section">
+      <h2>Hire Fleet</h2>
+      <div class="bike-grid">
+        <div class="bike-card">
+          <img src="images/hire-mountain.jpg" alt="Mountain bike available for hire" />
+          <p>Mountain Bike</p>
+        </div>
+        <div class="bike-card">
+          <img src="images/hire-road.jpg" alt="Road bike available for hire" />
+          <p>Road Bike</p>
+        </div>
+        <div class="bike-card">
+          <img src="images/hire-hybrid.jpg" alt="Hybrid bike available for hire" />
+          <p>Hybrid Bike</p>
+        </div>
+        <div class="bike-card">
+          <img src="images/hire-ebike.jpg" alt="E-bike available for hire" />
+          <p>E-Bike</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2>Book Your Hire Bike</h2>
+      <form action="#" method="post" class="hire-form">
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" placeholder="Your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="hire-email">Email Address:</label>
+          <input type="email" id="hire-email" name="hire-email" placeholder="you@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="hire-phone">Phone Number:</label>
+          <input type="tel" id="hire-phone" name="hire-phone" placeholder="07700 000000" />
+        </div>
+        <div class="form-group">
+          <label for="hire-date">Date of Hire:</label>
+          <input type="date" id="hire-date" name="hire-date" required />
+        </div>
+        <div class="form-group">
+          <label for="bike-type">Bike Type:</label>
+          <select id="bike-type" name="bike-type">
+            <option value="">-- Select a bike --</option>
+            <option value="road">Road Bike</option>
+            <option value="mountain">Mountain Bike</option>
+            <option value="hybrid">Hybrid Bike</option>
+            <option value="kids">Kids Bike</option>
+            <option value="ebike">E-Bike</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration:</label>
+          <select id="duration" name="duration">
+            <option value="">-- Select duration --</option>
+            <option value="half">Half Day (4 hours)</option>
+            <option value="full">Full Day (8 hours)</option>
+            <option value="weekend">Weekend</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Additional Notes:</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Any special requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn">Submit Booking Request</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Bike King Borders | 123 High Street, Galashiels, TD1 1AA | Tel: 01835 000000</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </p>
+  </footer>
+
+</body>
+</html>
